@@ -19,6 +19,7 @@ AssurPrime-DataChallenge/
 │ ├── raw/ # Challenge CSVs (to be downloaded separately)
 │ └── processed/ # Encoded & split datasets (generated locally)
 │
+│── models/ (saved models)
 │── results/ # Outputs (figures, submissions)
 │
 │── AssurPrime_End2End_Pro.ipynb # Main notebook (end-to-end workflow)
