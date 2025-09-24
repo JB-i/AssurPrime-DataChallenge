@@ -1,7 +1,16 @@
-numpy
-pandas
-scikit-learn
-xgboost
-shap
-os
-optuna
+# Core
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+
+# Machine Learning
+scikit-learn>=1.3,<2.0
+xgboost>=2.0,<3.0
+
+# Explainability
+shap>=0.43,<0.50
+
+# Hyperparameter optimization
+optuna>=3.4,<4.0
+
+# Notebook environment
+jupyter
