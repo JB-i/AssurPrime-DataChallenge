@@ -21,7 +21,7 @@ AssurPrime-DataChallenge/
 │
 │── results/ # Outputs (figures, submissions)
 │
-│── AssurPrime_End2End.ipynb # Main notebook (end-to-end workflow)
+│── AssurPrime_End2End_Pro.ipynb # Main notebook (end-to-end workflow)
 │── requirements.txt # Python dependencies
 │── README.md # Project documentation
 │── .gitignore
@@ -39,4 +39,4 @@ AssurPrime-DataChallenge/
    pip install -r requirements.txt
    ```
    
-3. Open the notebook: AssurPrime_End2End.ipynb to reproduce preprocessing, training, tuning, and submission generation.
+3. Open the notebook: AssurPrime_End2End_Pro.ipynb to reproduce preprocessing, training, tuning, and submission generation.
