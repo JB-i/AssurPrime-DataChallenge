@@ -14,15 +14,15 @@ The goal of the challenge was to **predict insurance premiums** using anonymized
 
 ## Repository Tree
 AssurPrime-DataChallenge/
-│── data/                 # Datasets (not versioned)
-│   ├── raw/              # Challenge CSVs (to be downloaded separately)
-│   └── processed/        # Encoded & split datasets (generated locally)
+│── data/ # Datasets (not versioned)
+│ ├── raw/ # Challenge CSVs (to be downloaded separately)
+│ └── processed/ # Encoded & split datasets (generated locally)
 │
-│── results/              # Outputs (figures, submissions)
+│── results/ # Outputs (figures, submissions)
 │
-│── AssurPrime_End2End.ipynb   # Main notebook (end-to-end workflow)
-│── requirements.txt           # Python dependencies
-│── README.md                  # Project documentation
+│── AssurPrime_End2End.ipynb # Main notebook (end-to-end workflow)
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
 │── .gitignore
 
 ## How to run
@@ -31,8 +31,10 @@ AssurPrime-DataChallenge/
    - `train_output_DzPxaPY.csv`
    - `test_input_5qJzHrr.csv
    from the official ENS Challenge website: https://challengedata.ens.fr/participants/challenges/161/
+
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+   
 3. Open the notebook: AssurPrime_End2End.ipynb to reproduce preprocessing, training, tuning, and submission generation.
