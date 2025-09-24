@@ -10,44 +10,20 @@ The goal of the challenge was to **predict insurance premiums** using anonymized
 
 ## Repository Structure
 
-```
-AssurPrime-DataChallenge/
-│
-├── notebooks/ # Jupyter notebooks
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_modeling_optuna_xgb.ipynb
-│ └── 04_results_visualization.ipynb
-│
-├── src/ # Reusable Python scripts
-│ ├── preprocessing.py
-│ ├── modeling.py
-│ └── evaluation.py
-│
-├── results/ # Figures and outputs
-│ ├── shap_summary.png
-│ ├── feature_importance.png
-│ └── performance_table.csv
-│
-└── requirements.txt # Python dependencies
-```
 
 
-## ⚙️ Methods
-- **Data preprocessing:** handled missing values, categorical encoding, log transformations.  
-- **Feature selection:** SHAP values and domain heuristics.  
-- **Modeling:** XGBoost, HistGradientBoostingRegressor, stacking ensemble.  
-- **Optimization:** Optuna for Bayesian hyperparameter search.  
-
-## 📊 Results
-- Ranked **8th overall** in the official leaderboard.  
-- Achieved a significant RMSE improvement compared to baseline linear regression.  
-- SHAP visualizations highlight the most predictive features.  
-
-## 🔧 Installation
-To run the project locally:
-
-```bash
-git clone https://github.com/JB-i/AssurPrime-DataChallenge.git
+## How to run
+1. Place the **3 challenge CSVs** in `data/raw/`:
+   - `train_input_Z61KlZo.csv`
+   - `train_output_DzPxaPY.csv`
+   - `test_input_5qJzHrr.csv`
+2. Install deps:
+   ```bash
+   pip install -r requirements.txt
 cd AssurPrime-DataChallenge
 pip install -r requirements.txt
+
+3. Open the notebook: AssurPrime_End2End.ipynb
+
+Raw data is not included in the repository and can be found in the challenge website :
+https://challengedata.ens.fr/participants/challenges/161/
