@@ -31,7 +31,7 @@ AssurPrime-DataChallenge/
 1. Place the **3 challenge CSVs** in `data/raw/`:
    - `train_input_Z61KlZo.csv`
    - `train_output_DzPxaPY.csv`
-   - `test_input_5qJzHrr.csv
+   - `test_input_5qJzHrr.csv`
    from the official ENS Challenge website: https://challengedata.ens.fr/participants/challenges/161/
 
 2. Install dependencies:
