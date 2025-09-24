@@ -13,6 +13,7 @@ The goal of the challenge was to **predict insurance premiums** using anonymized
    - Custom formula recombination for charge prediction
 
 ## Repository Tree
+```
 AssurPrime-DataChallenge/
 │── data/ # Datasets (not versioned)
 │ ├── raw/ # Challenge CSVs (to be downloaded separately)
@@ -24,6 +25,7 @@ AssurPrime-DataChallenge/
 │── requirements.txt # Python dependencies
 │── README.md # Project documentation
 │── .gitignore
+```
 
 ## How to run
 1. Place the **3 challenge CSVs** in `data/raw/`:
