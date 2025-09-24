@@ -8,9 +8,17 @@ The goal of the challenge was to **predict insurance premiums** using anonymized
 - Implemented end-to-end workflow in Python (data cleaning, feature engineering, model training, evaluation).
 - Final models: **XGBoost + HistGradientBoosting with Optuna hyperparameter tuning and SHAP feature analysis**.
 
-## Repository Structure
-
-
+## Repository Tree
+AssurPrime-DataChallenge/
+├── data/
+│   ├── raw/          # challenge CSVs (not versioned)
+│   └── processed/    # intermediate datasets
+├── models/           # saved models
+├── results/          # outputs (figures, submissions)
+├── AssurPrime_End2End.ipynb  # main notebook
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## How to run
 1. Place the **3 challenge CSVs** in `data/raw/`:
@@ -25,5 +33,5 @@ pip install -r requirements.txt
 
 3. Open the notebook: AssurPrime_End2End.ipynb
 
-Raw data is not included in the repository and can be found in the challenge website :
+Raw data is not included in the repository and can be downloaded from the official ENS Challenge website:
 https://challengedata.ens.fr/participants/challenges/161/
